@@ -3,7 +3,7 @@
 function local_examalert_extend_navigation(global_navigation $navigation)
 {
     global $PAGE, $DB, $COURSE;
-//var_dump($COURSE->id);die;
+    
     $myconfig = get_config('local_examalert');
 
 
